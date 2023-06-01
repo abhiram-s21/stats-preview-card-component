@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 15px;
+  background-color: hsl(233, 47%, 7%);
+  color: white;
+  padding: 50px;
+  font-family: "Hanken Grotesk", sans-serif;
+  font-family: "Inter", sans-serif;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+span {
+    color: hsla(0, 0%, 100%, 0.6)
+}
+
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-weight: 400;
+    
+}
+
+img {
+  display: block;
+}
+
+h1,
+p {
+  padding: 20px;
+}
+
+h1 span {
+    color:  hsl(277, 64%, 61%);
+}
+
+h1 + p {
+    line-height: 1.6;
+}
+
+h1,
+p,
+.stats {
+  max-width: 90%;
+}
+
+.stats-value {
+    font-size: 1.2rem;
+}
+
+.image {
+  width: 50%;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  overflow: hidden;
+  position: relative;
+  top: 0;
+  left: 0;
+  background-color:  hsl(277, 64%, 61%);
+}
+
+.text {
+  background-color: hsl(244, 38%, 16%);
+  width: 50%;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.main {
+  display: flex;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-between;
+}
+
+.stats-para {
+    color: white;
+    text-transform: uppercase;
+    font-size: 0.6rem;
+    
+}
+
+.attribution {
+  margin-top: 20px;
+}
